@@ -10,6 +10,6 @@ public class Main {
         in.useLocale(Locale.US);
         double x = in.nextDouble();
         double y = in.nextDouble();
-        System.out.println ( ( (x<=0) && (x*x+y*y<1) ) || x>0 && (x*x+y*y<1) && y>x  ?"YES_1":"NO_1");
+        System.out.println ( ( (x<=0) && (x*x+y*y<1) ) || x>0 && (x*x+y*y<1) && y>x  ?"YES_2":"NO_1");
     }
 }
